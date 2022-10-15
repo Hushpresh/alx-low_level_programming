@@ -3,11 +3,10 @@
 #include <stdio.h>
 
 /**
-*main - assigns a random numb. to the variable n
-*every time it is run it execute and print
-*return (0) = success
-* betty style doc for function main goes there 
-*/
+ * main - assigns a random number to int n everytime
+ * it executes, and prints it
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;
