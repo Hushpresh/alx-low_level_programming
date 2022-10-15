@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 
-/* more headers goes there 
+/**
 *main - assigns a random numb. to the variable n
 *every time it is run it execute and print
 *return (0) = success
