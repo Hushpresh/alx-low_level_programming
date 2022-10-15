@@ -1,53 +1,27 @@
-nclude <stdio.h>
-
-
+#include <stdio.h>
 
 /**
- *
- *  *main - print lowercase and uppercase a-zA-Z using putchar
- *
- *   *Return: Always 0 (Success)
- *
- *    */
-
-
+ *main - print lowercase and uppercase a-zA-Z using putchar
+ *Return: Always 0 (Success)
+ */
 
 int main(void)
-
 {
+	char lower = 'a';
+	char upper = 'A';
 
-		char lower = 'a';
+	while (lower <= 'z') /*print lowercases a-z*/
+	{
+		putchar(lower);
+		lower++;
+	}
 
-			char upper = 'A';
+	while (upper <= 'Z') /*print uppercase A-Z*/
+	{
+		putchar(upper);
+		upper++;
+	}
+	putchar('\n');
 
-
-
-				while (lower <= 'z') /*print lowercases a-z*/
-
-						{
-
-									putchar(lower);
-
-											lower++;
-
-												}
-
-
-
-					while (upper <= 'Z') /*print uppercase A-Z*/
-
-							{
-
-										putchar(upper);
-
-												upper++;
-
-													}
-
-						putchar('\n');
-
-
-
-							return (0);
-
+	return (0);
 }
