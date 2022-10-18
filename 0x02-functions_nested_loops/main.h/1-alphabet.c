@@ -1,18 +1,19 @@
-#include <studio.h>
+#include "main.h"
 
 /**
-* main - print all alphabet in lowercase.
-*
-* Return: 0.
-*/
-int main(void)
+ * print_alphabet - print alphabet
+ *
+ * Return: void
+ */
+
+void print_alphabet(void)
 {
-        char letter;
-        
-        for (letter = 'a'; letter <= 'z'; letter++)
-                 putchar(letter);
-                 
-         putchar('\n');
-         
-         return (0);
-  }       
+	char letter = 'a';
+
+	while (letter <= 'z')
+	{
+	_putchar(letter);
+	letter++;
+	}
+	_putchar('\n');
+}
