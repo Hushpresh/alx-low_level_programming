@@ -13,8 +13,8 @@ void print_numbers(viod)
 
 	while (number <= '9')
 	{
-	_putchar(letter);
-	letter++;
+	_putchar(number);
+	number++;
 	}
 	_putchar('\n');
 }	
