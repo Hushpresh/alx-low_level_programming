@@ -5,7 +5,7 @@
  * main - checks-for uppercase
  * @c: c is an ascii character
  *
- * Return: 1 if uppercase
+ * Return: 1 if c is uppercase or 0 if lowercase
  */
 
 int _isupper(int c)
@@ -18,4 +18,6 @@ int _isupper(int c)
 	{
 	return (0);
         }
+	
+	return (isupper);
 }	
