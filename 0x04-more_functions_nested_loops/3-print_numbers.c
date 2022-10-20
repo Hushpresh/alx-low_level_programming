@@ -1,20 +1,18 @@
 #include "main.h"
 
 /**
- * main - checks-for printed numbers
- * @c: c is an ascii character
+ *print_numbers - prints numbers
  *
- * Return: Always 0
+ * Return: void
  */
 
 void print_numbers(viod) 
 {
-        char number = '0';
+  	int c;
 
-	while (number <= '9')
+	for (c = '0'; c <= '9'; c++)
 	{
-	_putchar(number);
-	number++;
+		_putchar(c);
 	}
 	_putchar('\n');
 }	
