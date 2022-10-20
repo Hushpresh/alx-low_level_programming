@@ -2,10 +2,11 @@
 #include <stdio.h>
 
 /**
- * main - checks-for multipy
- * @c: c is an ascii characteer
+ *mul - multiplies two ints.
+ *@a: integer.
+ *@b: integer.
  *
- * Return: product.
+ *Return: product.
  */
 int mul(int a, int b)
 {
