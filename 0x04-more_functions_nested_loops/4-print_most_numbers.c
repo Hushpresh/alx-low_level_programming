@@ -1,23 +1,22 @@
 #include "main.h"
 
 /**
- * main - checks-for printed numbers
- *@c: c is an ascii character
- *
- * Return: Always 0.
+ * more_numbers - prints numbers between 0 to 14
+ * 10 times.
+ * Return: no return.
  */
-
-void print_most_numbers(void) 
+void more_numbers(void)
 {
-        char number = '0';
-       
-        while (number <= '9')
-        {
-          if( (number!=2) && (number!=4) )
-          {
-           _putchar(number);
-            number++;
-          }
-        }
-        _putchar ('\n');
+	int i, ch;
+
+	for (i = 0; i < 10; i++)
+	{
+	for (ch = 0; ch < 15; ch++)
+	{
+	if (ch >= 10)
+	_putchar((ch / 10) + 48);
+	_putchar((ch % 10) + 48);
+	}
+	_putchar('\n');
+	}
 }
