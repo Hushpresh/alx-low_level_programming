@@ -24,4 +24,3 @@ int _strcmp(char *s1, char *s2)
 	R = s1[i] - s2[i];
 	return (R);
 }
->>>>>>> 916656daa9395524291e6db274191f2002252e02
